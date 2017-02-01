@@ -34,8 +34,8 @@ ENTRYPOINT ["a8sidecar", "--register", "--proxy", "node", "/app/app.js"]
 ENV A8_SERVICE=orders:v1
 ENV A8_ENDPOINT_PORT=8080
 ENV A8_ENDPOINT_TYPE=http
-ENV A8_REGISTRY_URL=http://dev-a8-registry-CBJ-123.mybluemix.net
-ENV A8_CONTROLLER_URL=http://dev-a8-controller-CBJ-123.mybluemix.net
+ENV A8_REGISTRY_URL=http://LAB_SPACE-a8-registry-MK-666.mybluemix.net
+ENV A8_CONTROLLER_URL=http://LAB_SPACE-a8-controller-MK-666.mybluemix.net
 
 # Define command to run the application when the container starts
 # CMD ["node", "/app/app.js"] 
